@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.list {
+  list-style-type: none;
+}
+.list-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  background-color: #ffffff33;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  width: 280px;
+  height: 100px;
+  margin: 10px;
+  text-decoration: none;
+}
+.team-logo {
+  width: 60px;
+}
+.name {
+  color: #ffffff;
+  font-family: 'Bree serif';
+  font-size: 20px;
+}
+@media screen and (min-width: 768px) {
+  .list-items {
+    width: 400px;
+    height: 140px;
+  }
+  .team-logo {
+    width: 80px;
+  }
+  .name {
+    font-size: 30px;
+  }
+}
